@@ -16,6 +16,15 @@ namespace Lab23
             //double percentage=Convert.ToDouble(Console.ReadLine());
             double percentage = ((double)mark / 500) * 100;
             Console.WriteLine("percentage:"+percentage);
+
+
+            if (percentage >= 85)
+            {
+                Console.WriteLine("Grade = A");
+            }
+
+            else if (percentage >= 80) ;
+            Console.WriteLine("Grade = B+");
         }
     }
 }
