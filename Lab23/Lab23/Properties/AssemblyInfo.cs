@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Syntex")]
+[assembly: AssemblyTitle("Lab23")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Syntex")]
+[assembly: AssemblyProduct("Lab23")]
 [assembly: AssemblyCopyright("Copyright ©  2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("07229c67-fe9c-4b6d-8d26-34de7505ecb2")]
+[assembly: Guid("8869c491-4ad3-4dd2-a325-cf6a6a1b0115")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Basic
 {
-    internal class Program
-    {
+    internal class{
         static void Main(string[] args)
         {
             int a = 25;
@@ -15,6 +14,8 @@ namespace Basic
 
             int sum = a + b;
             Console.WriteLine(sum);
-        }
+
+
+        }   
     }
 }

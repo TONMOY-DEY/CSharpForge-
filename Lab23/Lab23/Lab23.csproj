@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{07229C67-FE9C-4B6D-8D26-34DE7505ECB2}</ProjectGuid>
+    <ProjectGuid>{8869C491-4AD3-4DD2-A325-CF6A6A1B0115}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Syntex</RootNamespace>
-    <AssemblyName>Syntex</AssemblyName>
+    <RootNamespace>Lab23</RootNamespace>
+    <AssemblyName>Lab23</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="practice.cs" />
+    <Compile Include="teacher.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

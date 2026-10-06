@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Syntex
+namespace Lab23
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+
+            practice s1 = new practice();
         }
     }
 }

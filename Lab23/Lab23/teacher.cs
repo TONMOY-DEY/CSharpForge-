@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace Lab23
 {
-    internal class Program
+    internal class teacher
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
