@@ -11,7 +11,8 @@ namespace Lab23
         static void Main(string[] args)
         {
 
-            practice s1 = new practice();
+            //practice s1 = new practice();
+            problem2 s2 = new problem2();
         }
     }
 }
