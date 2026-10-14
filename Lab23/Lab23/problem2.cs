@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,8 +24,15 @@ namespace Lab23
                 Console.WriteLine("Grade = A");
             }
 
-            else if (percentage >= 80) ;
-            Console.WriteLine("Grade = B+");
+            else if (percentage >= 80)
+            {
+                Console.WriteLine("Grade = B+");
+            }
+
+            else if (percentage >= 75)
+            {
+                Console.WriteLine("Grade =B");
+            }
         }
     }
 }

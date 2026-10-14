@@ -12,7 +12,7 @@ namespace Lab23
         {
 
             //practice s1 = new practice();
-            problem2 s2 = new problem2();
+            Variable V1=new Variable();
         }
     }
 }
