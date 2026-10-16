@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Lab23
@@ -52,6 +53,28 @@ namespace Lab23
 
             string fullname = name89 + name56;
             Console.WriteLine(fullname);
+
+
+            //Display sum
+            int x1 = 58;
+            int x23 = 56;
+
+            Console.WriteLine(x1+x23);
+
+
+            //Multiple variable 
+
+            int x25,x58,x78;
+            x25 = x58 = x78 = 58;
+            Console.WriteLine(x25+x58+x78);
+
+            long myNum = 15000000000L;
+            Console.WriteLine(myNum);
+
+            float mynum568 = 5.6589F;
+            Console.WriteLine(mynum568);
+
+            
 
 
 
