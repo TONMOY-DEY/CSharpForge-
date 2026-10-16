@@ -46,6 +46,16 @@ namespace Lab23
             Console.WriteLine("Hello..........."+name65);
 
 
+            //display
+            string name89 = "Tonmoy";
+            string name56 = "Dey";
+
+            string fullname = name89 + name56;
+            Console.WriteLine(fullname);
+
+
+
+
 
         }
 
