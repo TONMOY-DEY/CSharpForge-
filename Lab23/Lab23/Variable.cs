@@ -74,6 +74,9 @@ namespace Lab23
             float mynum568 = 5.6589F;
             Console.WriteLine(mynum568);
 
+            double number87 = 5.365D;
+            Console.WriteLine(number87);
+
             
 
 
