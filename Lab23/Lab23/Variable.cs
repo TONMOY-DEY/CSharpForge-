@@ -77,7 +77,12 @@ namespace Lab23
             double number87 = 5.365D;
             Console.WriteLine(number87);
 
-            
+            float f1 = 35e3F;
+            double d1 = 12E4D;
+            Console.WriteLine(f1); 
+            Console.WriteLine(d1);
+
+
 
 
 
