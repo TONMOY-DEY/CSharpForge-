@@ -83,6 +83,68 @@ namespace Lab23
             Console.WriteLine(d1);
 
 
+            bool csharpfun = true;
+            bool csharpfun5 = false;
+            Console.WriteLine(csharpfun);
+            Console.WriteLine(csharpfun5);
+
+            //Type casting 
+            //Implicit 
+            int number = 58;
+            double number58 = number;
+            Console.WriteLine(number58);
+
+            //Explecit 
+
+            double p = 58.5648D;
+            int q = (int)p;
+            Console.WriteLine(q);
+
+            double mydouble = 5987.659886D;
+            int z = (int)mydouble;
+            Console.WriteLine(z);
+
+
+            //Type Conversion Methods
+            int a = 58;
+            double t = 589.235D;
+            float v = 5897.23f;
+
+            Console.WriteLine(Convert.ToString(a));
+            Console.WriteLine(Convert.ToInt32(t));
+            Console.WriteLine(Convert.ToInt16(v));
+
+            //User input
+
+            //Console.WriteLine("please enter the use name:");
+            //String username=Console.ReadLine();
+            //Console.WriteLine("username:"+username);
+
+            //Console.WriteLine("Please enter the full name:");
+            //String username58=Console.ReadLine();
+            //Console.WriteLine("Full name:" + username58);
+
+            Console.WriteLine("Enter in your age:");
+            int age568=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Age is :" + age568);
+
+            Console.WriteLine("Enter in your id");
+            String id=Console.ReadLine();
+            Console.WriteLine("id is :"+id);
+
+            //sum
+            int m = 25;
+
+
+
+
+
+
+
+
+
+
+
 
 
 
