@@ -133,7 +133,17 @@ namespace Lab23
             Console.WriteLine("id is :"+id);
 
             //sum
-            int m = 25;
+            Console.WriteLine("Please enter the number1:");
+            int m=Convert.ToInt32(Console.ReadLine());
+            
+
+            Console.WriteLine("Please enter the number2:");
+            int n = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Sum is:");
+            int sum = m + m;
+            Console.WriteLine(sum);
+
 
 
 
