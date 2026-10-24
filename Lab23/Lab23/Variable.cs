@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -143,6 +144,28 @@ namespace Lab23
             Console.WriteLine("Sum is:");
             int sum = m + m;
             Console.WriteLine(sum);
+
+            sum++;
+            Console.WriteLine("Increment sum is :" + sum);
+
+            Console.WriteLine("Modulus is:");
+            int mosulus = m % n;
+            Console.WriteLine(mosulus);
+
+            //Assignment Operator
+            int x = 5;
+            x = x + 3;
+            Console.WriteLine(x);
+
+            int y = 5;
+            y *= 3;
+            Console.WriteLine(y);
+
+            int g = 5;
+            g &= 3;
+            Console.WriteLine(g);
+
+
 
 
 

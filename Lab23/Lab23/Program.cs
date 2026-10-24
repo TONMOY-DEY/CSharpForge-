@@ -12,7 +12,11 @@ namespace Lab23
         {
 
             //practice s1 = new practice();
-            Variable V1=new Variable();
+            //Variable V1=new Variable();
+            Method obj = new Method();
+            int result = obj.Add(10, 20);
+
+            Console.WriteLine(result);
         }
     }
 }
