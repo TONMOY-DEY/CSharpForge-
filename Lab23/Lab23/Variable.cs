@@ -1,6 +1,7 @@
 ﻿using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -180,6 +181,11 @@ namespace Lab23
             double t54 = 56.25;
             int h = (int)t54;
             Console.WriteLine(h);
+
+
+            object obj = 42;
+            int nnnumber = (int)obj;
+            Console.WriteLine(nnnumber);
 
 
 

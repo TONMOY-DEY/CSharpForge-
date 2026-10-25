@@ -25,6 +25,8 @@ namespace Lab23
 
         //practice s1 = new practice();
          Variable V1=new Variable();
+            Variable V2 = V1;
+            Variable V3 = (Variable)V2;
             dog d1=new dog();
             d1.name585 = "Tommy";
             d1.bark();
