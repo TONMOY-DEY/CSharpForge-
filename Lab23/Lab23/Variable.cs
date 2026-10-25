@@ -10,7 +10,8 @@ namespace Lab23
 {
     internal class Variable
     {
-        public Variable(){
+        public Variable()
+        {
             string name = "Jhon";
             Console.WriteLine(name);
 
@@ -26,7 +27,7 @@ namespace Lab23
             int num1 = 5;
             double mydoublenum23 = 5099D;
             char myLetter = 'D';
-            bool myBool= false;
+            bool myBool = false;
             string mytext = "Hello bro";
 
             Console.WriteLine(num1);
@@ -45,7 +46,7 @@ namespace Lab23
 
 
             string name65 = "keru";
-            Console.WriteLine("Hello..........."+name65);
+            Console.WriteLine("Hello..........." + name65);
 
 
             //display
@@ -60,14 +61,14 @@ namespace Lab23
             int x1 = 58;
             int x23 = 56;
 
-            Console.WriteLine(x1+x23);
+            Console.WriteLine(x1 + x23);
 
 
             //Multiple variable 
 
-            int x25,x58,x78;
+            int x25, x58, x78;
             x25 = x58 = x78 = 58;
-            Console.WriteLine(x25+x58+x78);
+            Console.WriteLine(x25 + x58 + x78);
 
             long myNum = 15000000000L;
             Console.WriteLine(myNum);
@@ -80,7 +81,7 @@ namespace Lab23
 
             float f1 = 35e3F;
             double d1 = 12E4D;
-            Console.WriteLine(f1); 
+            Console.WriteLine(f1);
             Console.WriteLine(d1);
 
 
@@ -126,17 +127,17 @@ namespace Lab23
             //Console.WriteLine("Full name:" + username58);
 
             Console.WriteLine("Enter in your age:");
-            int age568=Convert.ToInt32(Console.ReadLine());
+            int age568 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Age is :" + age568);
 
             Console.WriteLine("Enter in your id");
-            String id=Console.ReadLine();
-            Console.WriteLine("id is :"+id);
+            String id = Console.ReadLine();
+            Console.WriteLine("id is :" + id);
 
             //sum
             Console.WriteLine("Please enter the number1:");
-            int m=Convert.ToInt32(Console.ReadLine());
-            
+            int m = Convert.ToInt32(Console.ReadLine());
+
 
             Console.WriteLine("Please enter the number2:");
             int n = Convert.ToInt32(Console.ReadLine());
@@ -165,6 +166,25 @@ namespace Lab23
             g &= 3;
             Console.WriteLine(g);
 
+            int a56 = 5;
+            int b25 = a56 + 2;
+            bool test = false;
+            //int c58 = a56 + test;
+            Console.WriteLine(b25);
+
+            byte[] number56 = { 1, 2, 3, 4, 5, 6, 7};
+            byte[] tonmoy25 = number56;
+            tonmoy25[0] = 25;
+            //Console.WriteLine(Convert.ToInt32(number56));
+
+            double t54 = 56.25;
+            int h = (int)t54;
+            Console.WriteLine(h);
+
+
+
+
+
 
 
 
@@ -187,6 +207,7 @@ namespace Lab23
 
     }
 }
+
 
 
 

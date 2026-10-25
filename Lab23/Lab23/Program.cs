@@ -8,15 +8,33 @@ namespace Lab23
 {
     internal class Program
     {
-        static void Main(string[] args)
+  
+        
+
+            enum Traficstatus
         {
-
-            //practice s1 = new practice();
-            //Variable V1=new Variable();
-            Method obj = new Method();
-            int result = obj.Add(10, 20);
-
-            Console.WriteLine(result);
+            pending,
+            passed,
+            failed
         }
+        static void Main(string[] args)
+        { 
+            Traficstatus T1= Traficstatus.pending;
+            Console.WriteLine(T1);
+            Console.WriteLine((int )T1);
+
+        //practice s1 = new practice();
+         Variable V1=new Variable();
+            dog d1=new dog();
+            d1.name585 = "Tommy";
+            d1.bark();
+
+
+
+        //Method obj = new Method();
+        //int result = obj.Add(10, 20);
+
+        //Console.WriteLine(result);
+    }
     }
 }

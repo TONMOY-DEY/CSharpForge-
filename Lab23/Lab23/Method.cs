@@ -11,4 +11,11 @@ class Method
     }
 }
 
-
+class dog
+{
+    public string name585;
+    public void bark()
+    {
+        Console.WriteLine(name585,"Woof");
+    }
+}
