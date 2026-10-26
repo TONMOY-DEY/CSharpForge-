@@ -9,12 +9,13 @@ namespace Lab23
     internal class Student
     {
         public string name;
-        public string age;
+        public int age;
     
-
-    public void student()
+ public void study()
         {
-            Console.WriteLine("student");
+            Console.WriteLine("Student is studying");
+            Console.WriteLine("Student name is:" + name);
+            Console.WriteLine("Student age is:" + age);
         }
     }
 }
