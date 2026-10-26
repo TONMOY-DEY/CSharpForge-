@@ -18,25 +18,54 @@ namespace Lab23
             failed
         }
         static void Main(string[] args)
-        { 
-            Traficstatus T1= Traficstatus.pending;
+        {
+            Traficstatus T1 = Traficstatus.pending;
             Console.WriteLine(T1);
-            Console.WriteLine((int )T1);
+            Console.WriteLine((int)T1);
 
-        //practice s1 = new practice();
-         Variable V1=new Variable();
+            servingsizes s = servingsizes.samall;
+            Console.WriteLine(s);
+            
+
+            //practice s1 = new practice();
+            Variable V1 = new Variable();
             Variable V2 = V1;
             Variable V3 = (Variable)V2;
-            dog d1=new dog();
+            dog d1 = new dog();
             d1.name585 = "Tommy";
             d1.bark();
 
+            point.point1 p1 = new point.point1();
+            p1.x = 10;
+            p1.y = 20;
+
+            Console.WriteLine(p1.x);
+        }
+
+            enum servingsizes : int
+        {
+            samall=1,
+            Regular=2,
+            Large=3
+        }
+
+        
 
 
-        //Method obj = new Method();
-        //int result = obj.Add(10, 20);
 
-        //Console.WriteLine(result);
+           
+ 
+            
+
+
+
+
+
+            //Method obj = new Method();
+            //int result = obj.Add(10, 20);
+
+            //Console.WriteLine(result);
+        }
     }
-    }
-}
+
+

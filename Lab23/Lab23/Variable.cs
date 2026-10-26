@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -173,7 +174,7 @@ namespace Lab23
             //int c58 = a56 + test;
             Console.WriteLine(b25);
 
-            byte[] number56 = { 1, 2, 3, 4, 5, 6, 7};
+            byte[] number56 = { 1, 2, 3, 4, 5, 6, 7 };
             byte[] tonmoy25 = number56;
             tonmoy25[0] = 25;
             //Console.WriteLine(Convert.ToInt32(number56));
@@ -187,32 +188,56 @@ namespace Lab23
             int nnnumber = (int)obj;
             Console.WriteLine(nnnumber);
 
+            object obj1 = "Hello";
+            bool result = obj1 is string;
+            Console.WriteLine(result);
 
+            object obj2 = "Hello";
+            object result25 = obj2 as string;
+            Console.WriteLine(result25);
 
+            object obj3 = "Hello";
+            Console.WriteLine(obj3 is string);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            object obj4 = 123;
+            string text = obj4 as string;
+            //Console.WriteLine(text);
+            Console.WriteLine(text == null);
 
         }
 
+        
+
+        
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
-}
+
+        }
+
+    
+
 
 
 
