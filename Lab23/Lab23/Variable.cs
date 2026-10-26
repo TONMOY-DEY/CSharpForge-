@@ -208,7 +208,7 @@ namespace Lab23
             string name6006 = "Tonmoy";
             string name5878 = "Dey";
 
-            string resulttttt = name6006 + " -- " + name5878;
+            string resulttttt = name6006 + " " + name5878;
             Console.WriteLine(resulttttt);
 
         }

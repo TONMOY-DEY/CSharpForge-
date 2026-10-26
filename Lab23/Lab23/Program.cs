@@ -40,6 +40,8 @@ namespace Lab23
             p1.y = 20;
 
             Console.WriteLine(p1.x);
+            Student s1= new Student();
+            s1.student();
         }
 
             enum servingsizes : int
