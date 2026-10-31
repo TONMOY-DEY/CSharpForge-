@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animal.cs" />
+    <Compile Include="Cat.cs" />
+    <Compile Include="Jagged.cs" />
     <Compile Include="Method.cs" />
     <Compile Include="point.cs" />
     <Compile Include="problem2.cs" />
@@ -51,6 +54,7 @@
     <Compile Include="practice.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="teacher.cs" />
+    <Compile Include="Teacher12.cs" />
     <Compile Include="Variable.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -44,7 +44,42 @@ namespace Lab23
             s1.name = "Tonmoy";
             s1.age = 21;
             s1.study();
-            
+
+           Teacher12 t1=new Teacher12();
+            Teacher12 t2=new Teacher12("Akib",12,25653.00);
+
+            int[] number = {1,2,3,4,5,6,7};
+            int lengthofnumber = number.Length;
+            Console.WriteLine(lengthofnumber);
+
+            Jagged j1= new Jagged();
+            j1.Run();
+
+
+            Cat c1=new Cat();
+            c1.Eat();
+            //c1.name = "Caw";
+            //Console.WriteLine(c1.name);
+            c1.Eattttt();
+            //c1.name = "tommy";
+            //Console.WriteLine(c1.name);
+            //c1.Description = "Tommy is a good animal";
+            //Console.WriteLine(c1.Description);
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
 
             enum servingsizes : int
