@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Animal.cs" />
+    <Compile Include="Bank.cs" />
     <Compile Include="Cat.cs" />
     <Compile Include="Doctor.cs" />
     <Compile Include="Jagged.cs" />
